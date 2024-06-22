@@ -3,12 +3,16 @@
     "regions_implementation_backend": {
       "main": "src/regions_implementation_backend/main.mo",
       "type": "motoko"
+    },
+    "stable_hashmap": {
+      "main": "src/stable_hashmap/main.mo",
+      "type": "motoko"
     }
   },
   "defaults": {
     "build": {
       "args": "",
-      "packtool": ""
+      "packtool": "mops sources"
     }
   },
   "output_env_file": ".env",
